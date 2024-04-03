@@ -1,0 +1,15 @@
+/*margin: auto will align wrapper in the middle of the page */
+.wrapper{
+margin: auto;
+align-content: center;
+background-color: black;
+border-color: rgb(140, 133, 133);
+width: 700px;
+height: 700px;
+}
+.post{
+   border-color: white;
+   background-color: rgb(232, 227, 227);
+   width: 550px;
+   height: 600px;
+}
