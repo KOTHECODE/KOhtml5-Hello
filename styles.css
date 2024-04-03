@@ -1,11 +1,11 @@
 /*margin: auto will align wrapper in the middle of the page */
 .wrapper{
-margin: auto;
-align-content: center;
-background-color: black;
-border-color: rgb(140, 133, 133);
-width: 700px;
-height: 700px;
+   margin: auto;
+   align-content: center;
+   background-color: black;
+   border-color: rgb(140, 133, 133);
+   width: 700px;
+   height: 700px;
 }
 .post{
    margin: auto;
@@ -13,6 +13,19 @@ height: 700px;
    background-color: white;
    width: 550px;
    height: 600px;
+}
+.header{
+   height: 50px;
+}
+.header svg{
+   float: right;
+   font-weight: bold;
+}
+.header-text img{
+   width: 10%;
+   height: 50px;
+   float: left;
+   padding-right: 5px;
 }
 img{
    margin-left: auto;
@@ -23,22 +36,14 @@ img{
    padding-bottom: 10px;
  }
  .icons{
+   padding-left: 15px;
    font-size: 1.5em;
  }
-.header{
-   height: 50px;
-}
-.header svg{
-float: right;
-font-weight: bold;
-}
-.header-text img{
-   width: 10%;
-   height: 50px;
-   float: left;
-}
 .content{
    text-align: left;
    padding: 20px;
 }
-
+.icons #bookmark{
+   float: right;
+   padding-right: 15px;
+}
